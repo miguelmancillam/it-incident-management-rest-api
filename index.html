@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f7f9">
+  <meta name="description" content="Portafolio de Miguel Mancilla Mercado — Desarrollo Backend, Cloud y Data.">
+  <title>Miguel Mancilla — Desarrollo de Software</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+<header id="header">
+  <div class="container nav">
+    <a class="brand" href="#inicio"><span class="brand-mark">MM</span> Miguel Mancilla</a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+      <a href="#perfil">Perfil</a>
+      <a href="#stack">Stack</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Trayectoria</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+        </svg>
+      </button>
+      <a class="nav-cta" href="#contacto">Hablemos →</a>
+      <button class="menu" id="menuBtn" aria-label="Abrir menú">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero container" id="inicio">
+    <div>
+      <div class="eyebrow"><span class="eyebrow-dot"></span> Desarrollo de software · Santiago, Chile</div>
+      <h1>Construyo software <span class="soft">que resuelve.</span></h1>
+      <p class="hero-copy">
+        Soy <strong>Miguel Mancilla</strong>, desarrollador backend en proceso de titulación de Ingeniería en Informática.
+        Creo <strong>APIs, aplicaciones web y soluciones cloud/data</strong> con foco en claridad, estabilidad y crecimiento.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#proyectos">Ver proyectos ↗</a>
+        <a class="btn" href="mailto:contacto.m.mancilla@gmail.com">Contactarme</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>FOCUS</b>Backend · Cloud · Data</div>
+        <div><b>STACK</b>Python · Django · GCP</div>
+        <div><b>GITHUB</b><a href="https://github.com/miguelmancillam" target="_blank" rel="noreferrer">/miguelmancillam ↗</a></div>
+      </div>
+    </div>
+
+    <div class="showcase" aria-label="Vista previa conceptual de proyectos">
+      <div class="showcase-shell">
+        <div class="showcase-top">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span>portfolio / selected work</span>
+        </div>
+        <div class="showcase-main">
+          <div class="mini-header">
+            <span class="mini-brand">Operational Intelligence</span>
+            <span class="mini-chip">LIVE DATA</span>
+          </div>
+          <div class="metric-grid">
+            <div class="metric">
+              <small>REGISTROS PROCESADOS</small>
+              <strong>119M+</strong>
+              <p>Dataset histórico · NYC Yellow Taxi</p>
+              <div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="metric">
+              <small>EVENTOS STREAMING</small>
+              <strong>39K+</strong>
+              <p>Procesamiento en tiempo real</p>
+            </div>
+            <div class="metric">
+              <small>API</small>
+              <div class="api-line"><b>● 201</b> /api/tickets/</div>
+              <div class="api-line">JWT · roles · history</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="floating f1"><small>Backend</small><strong>Django · DRF</strong></div>
+      <div class="floating f2"><small>Cloud</small><strong>GCP · Dataflow</strong></div>
+    </div>
+  </section>
+
+  <section id="perfil">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">01 / Perfil</div></div>
+        <div>
+          <h2>Una mirada técnica con <span class="soft">sentido práctico.</span></h2>
+          <p class="section-desc">Mi experiencia combina desarrollo, datos y operación. Eso me lleva a pensar en sistemas que no solo funcionan, sino que también son comprensibles y mantenibles.</p>
+        </div>
+      </div>
+
+      <div class="profile-grid">
+        <div class="profile-copy">
+          <p>Me interesa transformar problemas reales en soluciones digitales simples y bien estructuradas.</p>
+          <p>He desarrollado un backend con Python, Django, Django REST Framework y PostgreSQL para la gestión de tickets, comentarios e historial, incorporando autenticación JWT y lógica de negocio.</p>
+          <p>También desarrollé una arquitectura batch y streaming en GCP capaz de procesar más de 119 millones de registros históricos y más de 39.000 eventos en tiempo real.</p>
+
+          <div class="principles">
+            <div class="principle"><b>Claridad</b><span>Arquitecturas y experiencias fáciles de entender.</span></div>
+            <div class="principle"><b>Escalabilidad</b><span>Diseño pensando en el crecimiento de la solución.</span></div>
+            <div class="principle"><b>Datos útiles</b><span>Procesamiento enfocado en resultados.</span></div>
+            <div class="principle"><b>Mejora continua</b><span>Aprender, probar y refinar.</span></div>
+          </div>
+        </div>
+
+        <aside class="identity">
+          <div class="identity-top">
+            <div class="avatar">MM</div>
+            <div>
+              <strong>Miguel Mancilla Mercado</strong>
+              <span>Desarrollador Backend Junior</span>
+            </div>
+          </div>
+          <div class="facts">
+            <div class="fact"><span>Ubicación</span><span>Santiago, Chile</span></div>
+            <div class="fact"><span>Formación</span><span>Ingeniería en Informática · Duoc UC</span></div>
+            <div class="fact"><span>Estado</span><span>Proceso de titulación</span></div>
+            <div class="fact"><span>Intereses</span><span>Backend · Cloud · Data</span></div>
+            <div class="fact"><span>Correo</span><span>contacto.m.mancilla</span></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="stack-section" id="stack">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">02 / Stack</div></div>
+        <div>
+          <h2>Tecnología que acompaña <span class="soft">cada solución.</span></h2>
+          <p class="section-desc">Un stack centrado en backend, datos, cloud y herramientas de desarrollo.</p>
+        </div>
+      </div>
+      <div class="stack">
+        <span class="tag">Python</span><span class="tag">Django</span><span class="tag">Django REST Framework</span>
+        <span class="tag">NestJS</span><span class="tag">Java</span><span class="tag">JavaScript</span>
+        <span class="tag">TypeScript</span><span class="tag">SQL</span><span class="tag">PostgreSQL</span>
+        <span class="tag">BigQuery</span><span class="tag">Docker</span><span class="tag">GCP</span>
+        <span class="tag">Cloud Run</span><span class="tag">Dataflow</span><span class="tag">Pub/Sub</span>
+        <span class="tag">Apache Beam</span><span class="tag">Git</span><span class="tag">Postman</span><span class="tag">Power BI</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">03 / Proyectos</div></div>
+        <div>
+          <h2>Trabajo que puedes <span class="soft">ver y entender.</span></h2>
+          <p class="section-desc">Dos proyectos principales que muestran cómo trabajo con backend, APIs, cloud y datos.</p>
+        </div>
+      </div>
+
+      <div class="projects">
+        <article class="project">
+          <div class="project-visual">
+            <div class="code-card">
+              <div><span class="gold">POST</span> /api/tickets/</div>
+              <div><span class="green">201</span> Created</div>
+              <div>{ "status": <span class="blue">"open"</span> }</div>
+              <br>
+              <br>
+              <div><span class="gold">JWT</span> · roles · history · comments</div>
+              <br>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>Backend · Web</span><span>01</span></div>
+            <h3>SupportDesk Ambit Cloud</h3>
+            <p>Backend para gestionar tickets, comentarios e historial de cambios, con estados, asignación, autenticación JWT y pruebas de endpoints.</p>
+            <div class="project-tech"><span>Python</span><span>Django</span><span>DRF</span><span>PostgreSQL</span><span>JWT</span></div>
+            <a class="project-link" href="https://github.com/miguelmancillam/it-incident-management-rest-api" target="_blank" rel="noreferrer">Explorar en GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-visual">
+            <div class="code-card">
+              <div><span class="gold">Cloud Run</span> → Pub/Sub</div>
+              <div>↓</div>
+              <div><span class="gold">Dataflow / Apache Beam</span></div>
+              <div>↓</div>
+              <div><span class="green">BigQuery</span> → Analytics</div>
+              <div class="data-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <br>
+              <div>batch + streaming architecture</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta"><span>Cloud · Data</span><span>02</span></div>
+            <h3>Plataforma de análisis de datos batch y streaming en GCP</h3>
+            <p>Arquitectura batch y streaming para procesar más de 119 millones de registros históricos y más de 39.000 eventos en tiempo real.</p>
+            <div class="project-tech"><span>GCP</span><span>Dataflow</span><span>Pub/Sub</span><span>BigQuery</span><span>Beam</span><span>Cloud Run</span></div>
+            <a class="project-link" href="https://github.com/miguelmancillam/gcp-lambda-data-pipeline" target="_blank" rel="noreferrer">Explorar en GitHub ↗</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="journey" id="experiencia">
+    <div class="container">
+      <div class="section-head">
+        <div><div class="eyebrow">04 / Trayectoria</div></div>
+        <div>
+          <h2>Experiencia que aporta <span class="soft">contexto al código.</span></h2>
+          <p class="section-desc">Además de mi formación técnica, he trabajado en soporte TI y operación de incidentes críticos.</p>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="job">
+          <div class="job-date">2024 — ACTUALIDAD</div>
+          <div><h3>Operador COP</h3><div class="job-company">Grupo Maker · Mallplaza</div><p>Monitoreo y coordinación de incidentes críticos, registro de eventos, seguimiento de estados y escalamiento oportuno.</p></div>
+        </article>
+        <article class="job">
+          <div class="job-date">NOV 2023 — FEB 2024</div>
+          <div><h3>Soporte Técnico TI</h3><div class="job-company">Casa Matriz · Construmart</div><p>Configuración de equipos corporativos, coordinación de técnicos en terreno, migraciones de datos y soporte remoto a usuarios.</p></div>
+        </article>
+        <article class="job">
+          <div class="job-date">2022 — 2026</div>
+          <div><h3>Ingeniería en Informática</h3><div class="job-company">Duoc UC · En proceso de titulación</div><p>Formación en desarrollo de software, bases de datos, APIs, cloud y datos.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <div class="container contact-inner">
+      <div class="eyebrow"><span class="eyebrow-dot"></span> 05 / Contacto</div>
+      <h2>Hablemos de lo que <span class="accent">quieres construir.</span></h2>
+      <p>Cuéntame sobre tu idea, aplicación, automatización o desafío técnico. Podemos partir por entender el problema.</p>
+      <div class="actions" style="justify-content:center">
+        <a class="btn primary" href="mailto:contacto.m.mancilla@gmail.com">Escribir un correo ↗</a>
+        <a class="btn" href="https://www.linkedin.com/in/mancillamiguel" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      </div>
+      <a class="contact-email" href="mailto:contacto.m.mancilla@gmail.com">contacto.m.mancilla@gmail.com</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <span>© 2026 Miguel Mancilla Mercado</span>
+    <div class="footer-links">
+      <a href="https://github.com/miguelmancillam" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/mancillamiguel" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="mailto:contacto.m.mancilla@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const header = document.getElementById("header");
+  const navLinks = document.getElementById("navLinks");
+  const menuBtn = document.getElementById("menuBtn");
+  const themeToggle = document.getElementById("themeToggle");
+  const themeIcon = document.getElementById("themeIcon");
+
+  window.addEventListener("scroll", () => {
+    header.classList.toggle("scrolled", window.scrollY > 8);
+  });
+
+  menuBtn?.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+  });
+
+  navLinks?.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => navLinks.classList.remove("open"));
+  });
+
+  const savedTheme = localStorage.getItem("portfolio-theme");
+  const initialTheme = savedTheme || "light";
+  document.documentElement.setAttribute("data-theme", initialTheme);
+
+  function updateThemeIcon(theme){
+    const isDark = theme === "dark";
+    themeIcon.innerHTML = isDark
+      ? '<path d="M20.5 14.5A8 8 0 0 1 9.5 3.5 8 8 0 1 0 20.5 14.5Z"/>'
+      : '<circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>';
+    themeToggle.setAttribute("aria-label", isDark ? "Cambiar a modo claro" : "Cambiar a modo oscuro");
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", isDark ? "#0b0d11" : "#f6f7f9");
+  }
+
+  updateThemeIcon(initialTheme);
+
+  themeToggle.addEventListener("click", () => {
+    const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("portfolio-theme", next);
+    updateThemeIcon(next);
+  });
+</script>
+</body>
+</html>
